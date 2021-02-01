@@ -12,15 +12,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Webview">
-        <activity android:name=".TakePicture">
+        <activity android:name=".ShareText">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
 
         </activity>
-        <activity android:name=".OpenUrl">
+        <activity android:name=".TakePicture">
         </activity>
+        <activity android:name=".OpenUrl"></activity>
         <activity android:name=".MainActivity">
             <intent-filter tools:ignore="AppLinkUrlError">
                 <action android:name="android.intent.action.VIEW" />
